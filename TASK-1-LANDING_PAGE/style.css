@@ -92,7 +92,7 @@ header{
 }
 
 .about2{
-    margin: auto;
+    margin: auto 1rem;
 }
 
 #service-container{
@@ -189,8 +189,11 @@ header{
 }
 
 .about1 p{
-    padding: 0 5rem;
+    padding: 0 9rem;
     line-height: 2rem;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
 }
 
 #contact{
