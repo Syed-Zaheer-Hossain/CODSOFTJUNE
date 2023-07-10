@@ -5,7 +5,7 @@
     --white:white;
     --darkest:black;
     --dar:rgb(38, 49, 72);
-    --dark:antiquewhite;
+    --dark:bisque;
     --dark2:rgb(7, 7, 29);
     --dark3:rgb(39, 40, 34);
     --text1:rgb(242, 0, 255);
@@ -404,6 +404,7 @@ body{
 #project{
     min-height:100vh;
     padding: 0 4rem;
+    background-color: rgba(255, 248, 202, 0.593);
 }
 #project h1{
     font-size: 50px;
@@ -692,6 +693,11 @@ footer{
         width:100%;
     }
 
+    #about h1{
+        margin: 1rem 0;
+
+    }
+
     .imag{
         margin: 0;
         padding: 0;
@@ -723,6 +729,10 @@ footer{
         padding: 0;
     }
 
+    #project h1{
+        margin: 4rem 0 1rem 0;
+    }
+
     .projs{
         display: flex;
         flex-direction: column;
@@ -736,6 +746,10 @@ footer{
     #hire{
         min-height: 100vh;
         height:auto;
+    }
+
+    #hire h1{
+        margin: 4rem 0;
     }
 
     .btt{
