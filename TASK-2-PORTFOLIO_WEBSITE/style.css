@@ -715,6 +715,10 @@ footer{
         font-size:20px;
     }
 
+    #prof h1{
+        margin: 4rem 0 1rem 0;
+    }
+
     .skill{
         flex-direction: column-reverse;
         align-items: flex-start;
